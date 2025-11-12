@@ -1,62 +1,84 @@
 body{
     width: 1440px;
     display: flex;
-    flex-flow: column;
-    align-self: center;
     justify-self: center;
-}
-.text{
-    height: 124px;
-    display: flex;
     flex-flow: column;
-    align-items: center;
-    justify-self: center;
 }
-w{
-    font-size:32px;
-    color: rgb(78, 78, 78);
-}
-v{
-    font-size: 16px;
-    color:grey;
-}
-.tabs{
+
+.helping {
     width: 1440px;
+    height: 288px;
+    background-color: #F5F7FA;
     display: flex;
+    justify-items: center;
     justify-content: space-around;
 }
-.tab{
-    width: 368px;
-    max-height: 366px;
+
+.text0 {
+    margin-top: 84px;
 }
-.img{
-    width:368px;
-    height: 286px;
-    background-image: url(image18.png);
-    z-index: 1;
+
+.green,.grey {
+    font-weight: bold;
+    font-size: 45px;
 }
-.img2{
-    width:368px;
-    height: 286px;
-    background-image: url(image19.png);
-    z-index: 1;
+
+.grey {
+    color: #4D4D4D;
 }
-.img3{
-    width:368px;
-    height: 286px;
-    background-image: url(image20.png);
-    z-index: 1;
+
+.green {
+    color: #4CAF4F;
 }
-.text2{
-    width: 317px;
-    height: 176px;
+
+.columns {
+    margin-top: 64px;
+    width: 540px;
+    height: 160px;
     display: flex;
-    flex-flow: column;
-    align-self: flex-end;
-    font-size: 20px;
-    z-index: 10;
+    justify-content: space-between;
+    align-content: space-around;
 }
-h1{
-    color: greenyellow;
-    font-size: 20px;
+.column1{
+    margin-bottom: 40px;
+}
+
+
+.number1, .number2, .number3, .number4 {
+    font-weight: bold;
+    font-size: 45px;
+    color: #4D4D4D;
+}
+
+.members {
+    width: 295px;
+    height: 60px;
+    margin-bottom: 40px;
+}
+
+.event {
+    width: 295px;
+    height: 60px;
+}
+
+.club {
+    width: 295px;
+    height: 60px;
+    margin-bottom: 40px;
+}
+
+.payments {
+    width: 295px;
+    height: 60px;
+}
+
+.text1, .text2 {
+    padding-left: 70px;
+    color: #717171;
+}
+
+.img-left {
+    float: left;
+    
+    height: 48px;
 }
