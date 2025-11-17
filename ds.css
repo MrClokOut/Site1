@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+    
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 110px;
+}
+.hero {
+
+max-width: 1400px;
+margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    width: 100%;
+    top: 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4CAF4F;
+    margin-left: 100px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #4CAF4F;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+
+.register {
+    
+    background-color: #4CAF4F;
+    color: white;
+    border: 1px solid #f8f9fa;
+    border-radius: 5px;
+    height: 40px;
+    width: 91px;
+}
+.menu-list {
+
+  text-decoration: none;
+
+}
+.login {
+
+    color:#4CAF4F;
+    border: 2px solid #f8f9fa;
+       height: 40px;
+    width: 91px;
+     border-radius: 5px;
+}
+.buttons {
+
+color:#4CAF4F;
+    border-color: 2px solid #f8f9fa;
+  margin-right: 200px ;
+ border-radius: 10px;
+
+}
+.img {
+
+float: right;
+margin-right: 90px;
+margin-top: 10px;
+
+
+}
+
+.pip {
+font-size: 64px;
+color: #4CAF4F;
+padding-top: 90px;
+}
+
+.hero-subtitle {
+font-size: 64px;
+float: left;
+margin-top: 10px;
+color: #4D4D4D;
+}
+.pomogite {
+
+margin-top: 60px;
+
+
+}
+.sos {
+margin-top: 20px;
+
+}
+
+.butt {
+    background: #4CAF4F;
+    color: white;
+    border: 2px solid #f8f9fa;
+    width: 128px;
+    height: 52px;
+     border-radius: 5px;
+     float: left;
+     
+}
+
+.nadd {
+color: #717171;
+
+
+}
+.mem {
+margin-left: 20px;
+float: left;
+
+}
+
+.kartink {
+
+    margin-top: 130px;
+
+}
+.popi {
+
+  margin-top: 600px;
+margin-left: 90px;
+}
